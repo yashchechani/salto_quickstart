@@ -89,4 +89,16 @@ type salesforce.Lead {
   
   
   
+  salesforce.Number Score__c {
+    apiName = "Lead.Score__c"
+    label = "Score"
+    precision = 18
+    scale = 0
+    createable = true
+    updateable = true
+    unique = false
+    queryable = true
+    externalId = false
+    trackFeedHistory = false
+  }
 }

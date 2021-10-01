@@ -5,4 +5,34 @@ salesforce.AssignmentRules Lead {
     salesforce.Lead,
   ]
   
+  assignmentRule = [
+    {
+      fullName = "Score based lead assignment"
+      active = true
+      ruleEntry = [
+        {
+          assignedTo = "Hot_Lead"
+          assignedToType = "Queue"
+          criteriaItems = [
+            {
+              field = salesforce.Lead.field.Score__c
+              operation = "greaterThan"
+              value = "70"
+            },
+          ]
+        },
+        {
+          assignedTo = "Cold_Lead"
+          assignedToType = "Queue"
+          criteriaItems = [
+            {
+              field = salesforce.Lead.field.Score__c
+              operation = "lessOrEqual"
+              value = "70"
+            },
+          ]
+        },
+      ]
+    },
+  ]
 }

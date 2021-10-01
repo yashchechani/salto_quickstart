@@ -1,0 +1,8 @@
+salesforce.Queue Hot_Lead {
+  fullName = "Hot_Lead"
+  doesSendEmailToMembers = false
+  name = "Hot Lead"
+  queueSobject = {
+    sobjectType = "Lead"
+  }
+}

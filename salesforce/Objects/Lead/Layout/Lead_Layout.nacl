@@ -44,6 +44,10 @@ salesforce.Layout Lead_Lead_Layout@bs {
               behavior = "Edit"
               field = salesforce.Lead.field.AnnualRevenue
             },
+            {
+              behavior = "Edit"
+              field = salesforce.Lead.field.Score__c
+            },
           ]
         },
         {
