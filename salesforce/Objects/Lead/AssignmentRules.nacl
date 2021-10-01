@@ -1,0 +1,8 @@
+salesforce.AssignmentRules Lead {
+  
+  fullName = "Lead"
+  _parent = [
+    salesforce.Lead,
+  ]
+  
+}

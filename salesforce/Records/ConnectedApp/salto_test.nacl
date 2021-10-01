@@ -1,0 +1,17 @@
+salesforce.ConnectedApp salto_test {
+  fullName = "salto_test"
+  contactEmail = "yashvc@gmail.com"
+  label = "salto_test"
+  oauthConfig = {
+    callbackUrl = "http://localhost:8888"
+    consumerKey = "3MVG9p1Q1BCe9GmAAuNVBOK8Oj6T916ymmYWG7BR1KQosWVJTv8yA8DlCDnnmXkQ8H1AIrhxt7KtpCxGYbYha"
+    isAdminApproved = true
+    isConsumerSecretOptional = false
+    isIntrospectAllTokens = false
+    scopes = "Full"
+  }
+  oauthPolicy = {
+    ipRelaxation = "ENFORCE"
+    refreshTokenPolicy = "infinite"
+  }
+}

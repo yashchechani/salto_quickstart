@@ -1,0 +1,5 @@
+workspace {
+  uid = "254a9e24-a778-4641-9e3f-2f3738b10dfc"
+  name = "salto_quickstart"
+  staleStateThresholdMinutes = undefined
+}
