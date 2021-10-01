@@ -1,0 +1,8 @@
+salesforce.Queue Cold_Lead {
+  fullName = "Cold_Lead"
+  doesSendEmailToMembers = false
+  name = "Cold_Lead"
+  queueSobject = {
+    sobjectType = "Lead"
+  }
+}
